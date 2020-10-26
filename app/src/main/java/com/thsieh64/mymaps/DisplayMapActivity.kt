@@ -8,10 +8,7 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.LatLngBounds
-import com.google.android.gms.maps.model.Marker
-import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.*
 import com.thsieh64.mymaps.models.UserMap
 
 private const val TAG = "DisplayMapActivity"
@@ -52,7 +49,11 @@ class DisplayMapActivity : AppCompatActivity(), OnMapReadyCallback {
         for (place in userMap.places) {
             val latLng = LatLng(place.latitude, place.longtitude)
             boundsBuilder.include(latLng)
-            mMap.addMarker(MarkerOptions().position(latLng).title(place.title).snippet(place.description))
+            mMap.addMarker(MarkerOptions()
+                .position(latLng)
+                .title(place.title)
+                .snippet(place.description)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)))
         }
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(boundsBuilder.build(), 1000, 1000, 0))
