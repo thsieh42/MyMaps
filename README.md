@@ -1,35 +1,38 @@
 # My Maps 
 
-## *Your name here*
+## *Thomas Hsieh*
 
 **My Maps** displays a list of maps, each of which show user-defined markers with a title, description, and location. The user can also create a new map. 
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Functionality 
 
 The following **required** functionality is completed:
 
-* [ ] The list of map titles is displayed.
-* [ ] After tapping on a map title, the associated markers in the map are shown.
-* [ ] The user is able to create a new map.
+* [X] The list of map titles is displayed.
+* [X] After tapping on a map title, the associated markers in the map are shown.
+* [X] The user is able to create a new map.
 
 The following **extensions** are implemented:
 
-* [ ] When a map marker is created, the pin is animated.
-* [ ] List anything else that you did to improve the app functionality or design!
+* [X] Updated color scheme to be black and more minimal looking.
+* [X] When a map marker is created, the pin is animated.
+* [X] Changed pincolor to be blue.
+
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='https://gifs.com/gif/mymaps-AN5vGB' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [Gifs](http://www.gifs.com/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Changing the theme to be black made it harder to see the ripple effect on the menu items. I struggled a bit to have it showed up but found that I had to add a theme color for "colorControlHighlight" to change it.
 
 ## License
 
