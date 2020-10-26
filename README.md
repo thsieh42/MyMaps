@@ -25,7 +25,7 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://gifs.com/gif/mymaps-AN5vGB' width='' alt='Video Walkthrough' />
+<iframe src='//gifs.com/embed/mymaps-AN5vGB' frameborder='0' scrolling='no' width='564px' height='1154px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 GIF created with [Gifs](http://www.gifs.com/).
 
